@@ -34,5 +34,12 @@ Please fill in the sections below after you complete the challenge.
 --->
 
 ### What I'm Pleased With
+- Implemented bredth first search to find the shortest path
+- Tested multiple test cases eg. OutOfBounds, ImpossiblePath and Overlapping start & end
+- Use of TypeScript with custom types
+- Structured code base
 
 ### What I Would Have Done With More Time
+- Use A* algorithm to achieve a higher efficiency
+- Use Dijkstra's algorithm to allow for weighted paths
+- Add a UI to visualise the path and allow easier input
