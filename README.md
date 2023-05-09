@@ -20,18 +20,21 @@ then `pathfind(A, P, Q)` should return `6`.
 
 _Please avoid using libraries to implement the algorithmic side of this challenge, other libraries (such as PHPUnit or Jest for testing) are welcome._
 
-## What to do
+## Usage
 
-1. Clone/Fork this repo or create your own
-2. Implement the function described above in any mainstream language you wish
-3. Provide unit tests for your submission
-4. Fill in the section(s) below
+### Install
+
+`npm install`
+
+### Start 
+
+`npm start` for command line input to pathfind
+
+### Test
+
+`npm test`
 
 ## Comments Section
-
-<!---
-Please fill in the sections below after you complete the challenge.
---->
 
 ### What I'm Pleased With
 - Implemented bredth first search to find the shortest path
