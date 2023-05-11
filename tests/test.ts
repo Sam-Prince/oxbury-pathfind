@@ -1,10 +1,11 @@
-import { impossibleBoard, basicBoard, defaultBoard } from "../src/data/boardPresets"
-import pathfind from "../src/pathfind"
+import { impossibleBoard, basicBoard, defaultBoard, trapBoard } from "../src/data/boardPresets"
+import {default as pathfind} from "../src/pathfindAStar"
 
 test(
   "Test pathfind returns shortest path", () => {
     expect(pathfind(basicBoard, [4, 1], [2, 3])).toBe(10)
     expect(pathfind(defaultBoard, [1, 0], [2, 3])).toBe(6)
+    expect(pathfind(trapBoard, [0, 0], [4, 4])).toBe(8)
   })
 
 test(

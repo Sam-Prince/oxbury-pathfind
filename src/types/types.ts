@@ -12,4 +12,9 @@ type Dimension = {
   y: number
 }
 
-export {Point, Board, PointPair, Dimension}
+type PriorityPoint = {
+  p: Point,
+  i: number
+}
+
+export {Point, Board, PointPair, Dimension, PriorityPoint}
